@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background-color: white;
+  /* font-family: Verdana; */
+}
+
+/* navbar */
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 40px;
+  overflow: hidden;
+  /* position: fixed; - made the page jump, will fix later */
+}
+.navbar .logo {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0078d4;
+}
+.navbar ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navbar ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #444;
+  font-size: 15px;
+}
+.navbar ul li a:hover {
+  color: #0078d4;
+}
+
+/* hero section */
+.hero {
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 70px 20px 0 20px;
+}
+.hero h1 {
+  font-size: 56px;
+  margin: 0;
+  /* font-size: 64px; too big */
+}
+.hero p {
+  font-size: 18px;
+  color: #555;
+  margin-top: 15px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #0078d4;
+  color: white;
+  padding: 14px 28px;
+  margin: 10px 5px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.btn:hover {
+  background-color: #005a9e;
+}
+
+.btn2 {
+  display: inline-block;
+  background-color: white;
+  color: #222;
+  border: 1px solid #aaa;
+  padding: 13px 28px;
+  margin: 10px 5px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+/* editor picture */
+.editor {
+  width: 800px;
+  margin: 50px auto 0 auto;
+  background-color: #1e1e1e;
+  border-radius: 8px 8px 0 0;
+  text-align: left;
+  overflow: hidden;
+}
+.editor .top {
+  background-color: #333;
+  padding: 10px;
+  color: #ccc;
+  font-size: 13px;
+  text-align: center;
+}
+.editor pre {
+  color: #d4d4d4;
+  font-family: Consolas, monospace;
+  font-size: 14px;
+  padding: 20px;
+  margin: 0;
+  overflow: auto;
+}
+.blue { color: #569cd6; }
+.orange { color: #ce9178; }
+.green { color: #6a9955; }
+.yellow { color: #dcdcaa; }
+.bottom {
+  background-color: #007acc;
+  color: white;
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+/* features */
+.features {
+  text-align: center;
+  padding: 60px 20px;
+}
+.features h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+.box {
+  display: inline-block;
+  vertical-align: top;
+  width: 260px;
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  /* border: 1px solid red;   testing */
+  padding: 20px;
+  margin: 15px;
+  text-align: left;
+}
+.box h3 {
+  margin-top: 0;
+}
+.box p {
+  color: #555;
+  font-size: 15px;
+}
+
+/* copilot */
+.copilot {
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 60px 20px;
+}
+.copilot h2 {
+  font-size: 34px;
+}
+.copilot p {
+  max-width: 500px;
+  margin: 10px auto 20px auto;
+  color: #555;
+}
+
+/* extensions */
+.extensions {
+  text-align: center;
+  padding: 60px 20px;
+}
+.extensions h2 {
+  font-size: 34px;
+}
+.ext {
+  display: inline-block;
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+  vertical-align: top;
+}
+
+/* download */
+.download {
+  background-color: #0078d4;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+.download h2 {
+  font-size: 32px;
+  margin-top: 0;
+}
+.download a {
+  display: inline-block;
+  background-color: white;
+  color: #0078d4;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* footer */
+.footer {
+  background-color: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 25px;
+  font-size: 14px;
+}
+
+/* TODO: make it work on phones */
+/* TODO: add a search bar */
